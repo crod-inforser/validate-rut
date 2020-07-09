@@ -1,6 +1,6 @@
 {
-  "name": "validate-rut-serie-ts",
-  "version": "1.0.0",
+  "name": "validate-rut-serie",
+  "version": "1.0.1",
   "description": "tool to validate serie of rut, chile",
   "main": "index.ts",
   "scripts": {
@@ -31,9 +31,9 @@
     "babel-preset-minify": "^0.5.1",
     "typescript": "^3.9.6"
   },
-  "homepage": "https://bitbucket.org/inforsercl/sell-project-back#readme",
+  "homepage": "https://github.com/crod-inforser/validate-rut#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://khristianx@bitbucket.org/inforsercl/sell-project-back.git"
+    "url": "https://github.com/crod-inforser/validate-rut"
   }
 }
