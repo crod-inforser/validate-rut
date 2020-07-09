@@ -21,7 +21,7 @@ yarn add validate-rut-serie
 
 ## Using the tool ⚙️
 
-_First import the tool, then call the method isValid, sending an object with rut and serie (without points)_
+_First import the tool, then call the async method isValid, sending an object with rut and serie (without points), it will return an boolean_
 
 ### Example 🔩
 
@@ -30,7 +30,7 @@ const { isValid } = require("validate-rut-serie")
 
 async function tellIfIsValid() {
     const valid = await isValid({rut:"11.111.111-1", serie:"123456789"})
-    console.log(valid)
+    console.log(valid) // return true if is valid, or false if is invalid
 }
 
 tellIfIsValid()
