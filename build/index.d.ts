@@ -1,0 +1,1 @@
+export function isValid({ serie, rut }: { serie: string, rut: string }): Promise<boolean>;

@@ -1,0 +1,39 @@
+{
+  "name": "validate-rut-serie-ts",
+  "version": "1.0.0",
+  "description": "tool to validate serie of rut, chile",
+  "main": "index.ts",
+  "scripts": {
+    "build": "babel src --out-dir build --copy-files",
+    "start": "node example"
+  },
+  "keywords": [
+    "herramient",
+    "tool",
+    "rut",
+    "run",
+    "serie",
+    "documento",
+    "numero de documento",
+    "validar",
+    "validate"
+  ],
+  "author": "crod-inforser",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "rut.js": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-preset-minify": "^0.5.1",
+    "typescript": "^3.9.6"
+  },
+  "homepage": "https://bitbucket.org/inforsercl/sell-project-back#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://khristianx@bitbucket.org/inforsercl/sell-project-back.git"
+  }
+}
